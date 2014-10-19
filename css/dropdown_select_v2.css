@@ -1,0 +1,106 @@
+/*dropdown_select_v2.css*/
+
+.dropdown_container{
+    display: inline-block;
+}
+
+.dropdown_click{
+    background-color: #FFFFFF;
+    border: 2px solid #B4B6E4;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+.dropdown_click:hover{
+    background-color: #7058CA;
+    border: 2px solid #644EB4;
+    color: #FFFFFF;
+}
+
+.dropdown_values{
+    background-color: #FFFFFF;
+    border: 2px solid #B4B6E4;
+    padding: 5px;
+    display:none;
+}
+
+.dropdown_values p, .dropdown_click p{
+    margin: 0;
+}
+
+.dropdown_values a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+.dropdown_values a:hover{
+    background-color: #7058CA;
+    border: 2px solid #644eb4;
+    color: #FFFFFF;
+}
+
+.dropdown_selected{
+    background-color: #8E8EE8;
+    color: #FFFFFF;
+}
+
+.arrow_down {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #B4B6E4;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.dropdown_click:hover .arrow_down {
+    border-top: 10px solid #FFFFFF;   
+}
+
+.arrow_up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #B4B6E4;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.dropdown_click:hover .arrow_up {
+    border-bottom: 10px solid #FFFFFF;   
+}
+
+.arrow_right {
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #B4B6E4;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.dropdown_click:hover .arrow_right {
+    border-left: 10px solid #FFFFFF;   
+}
+
+.arrow_left {
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent; 
+    border-right: 10px solid #B4B6E4;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.dropdown_click:hover .arrow_left {
+    border-right: 10px solid #FFFFFF;   
+}
