@@ -1,7 +1,7 @@
 dropdown_select_v2
 ==================
 
-Dropdown select blue custom version
+Dropdown select blue custom version jQuery pluggin
 
 Link required files
 First, the jQuery library and jQuery UI needs to be included (no need to download - link directly from Google). Next, download and link the dropdown_select_v2 CSS file and the dropdown_select_v2 Javascript file.
@@ -25,8 +25,6 @@ Create a <select class="dropdown_select"> element, with a <option> for each opti
             <option value="option_01">Option 01</option>
             <option value="option_02">Option 02</option>
             <option value="option_03">Option 03</option>
-            <option value="option_04">Option 04</option>
-            <option value="option_05">Option 05</option>
         </select>
         
         <select name="select_list_02" id="select_list_02" class="dropdown_select">
@@ -34,14 +32,12 @@ Create a <select class="dropdown_select"> element, with a <option> for each opti
             <option value="option_01">Option 01</option>
             <option value="option_02">Option 02</option>
             <option value="option_03">Option 03</option>
-            <option value="option_04">Option 04</option>
-            <option value="option_05">Option 05</option>
         </select>
         
     </body>
 
 Call the dropdown_select_v2
-Call .dropdowSelect() on <select class="dropdown_select">.
+Call .dropdowSelect() on ```<select class="dropdown_select">```.
 
         <script>
             $(function(){
