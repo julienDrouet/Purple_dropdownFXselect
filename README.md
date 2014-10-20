@@ -16,7 +16,7 @@ First, the jQuery library and jQuery UI needs to be included (no need to downloa
         <script src="js/dropdown_select_v2.js"></script>
         
 Create HTML markup
-Create a <select class="dropdown_select"> element, with a <option> for each option you have. You can apply the design and effects to all your select dropdow menu just by adding the class="dropdown_select" on every one.
+Create a ```<select class="dropdown_select">``` element, with a ```<option>``` for each option you have. You can apply the design and effects to all your select dropdow menu just by adding the class="dropdown_select" on every one.
 
     <body>
         
