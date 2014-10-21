@@ -1,19 +1,19 @@
-dropdown_select_v2
+Purple_dropdownFXselect
 ==================
 
-Dropdown select blue custom version jQuery pluggin
+Dropdown select list with custom effects options from jQuery UI
 
 Link required files
-First, the jQuery library and jQuery UI needs to be included (no need to download - link directly from Google). Next, download and link the dropdown_select_v2 CSS file and the dropdown_select_v2 Javascript file.
+First, the jQuery library and jQuery UI needs to be included (no need to download - link directly from Google). Next, download and link the purple_dropdownFXselect CSS and Javascript files.
 
         <!-- jQuery and jQuery UI library (served from Google) -->
         <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
         
-        <!-- dropdown_select_v2 CSS and Javascript file -->
-        <link rel="stylesheet" href="css/dropdown_select_v2.css">
-        <script src="js/dropdown_select_v2.js"></script>
+        <!-- Purple_dropdownFXselect CSS and Javascript file -->
+        <link rel="stylesheet" href="css/purple_dropdownFXselect.css">
+        <script src="js/purple_dropdownFXselect.js"></script>
         
 Create HTML markup
 Create a ```<select class="dropdown_select">``` element, with a ```<option>``` for each option you have. You can apply the design and effects to all your select dropdow menu just by adding the class="dropdown_select" on every one.
@@ -36,7 +36,7 @@ Create a ```<select class="dropdown_select">``` element, with a ```<option>``` f
         
     </body>
 
-Call the dropdown_select_v2
+Call the purple_dropdownFXselect
 Call .dropdowSelect() on ```<select class="dropdown_select">```.
 
         <script>
@@ -46,7 +46,7 @@ Call .dropdowSelect() on ```<select class="dropdown_select">```.
             });
         </script>
 
-Options
+
 
 
 
