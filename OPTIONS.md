@@ -7,7 +7,7 @@ Options available with Purple_dropdownFXselect jQuery UI small plugin
 
 <h3>fx</h3>
 
-The type of "effect" to use during dropdown.
+Define the type of "effect" to use during dropdown.
 
       Default: ‘Slide’
       Options :  ‘blind’  ‘bounce’  ‘clip’  ‘drop’  ‘ explode’  ‘fade’  ‘fold’  ‘highlight’  ‘puff’  ‘pulsate’  scale’  ‘shake’       ‘size’  ‘slide’
@@ -25,7 +25,7 @@ Customize the jQuery UI effect selected (not necessary needed).
 For more possible option (depends on the effect you choose) check the jQuery UI effect documentation on:
 http://api.jqueryui.com/category/effects/ 
 
-You can also add easings like {easing: 'easeInOutElastic'} in addition with a direction or just by itself.
+You can also add easings like ```{easing: 'easeInOutElastic'}``` in addition with a direction or just by itself.
 
 Check the jQuery UI easings documentation for more possibilities: 
 http://api.jqueryui.com/easings/
